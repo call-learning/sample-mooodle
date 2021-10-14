@@ -773,7 +773,7 @@ function grade_format_gradevalue($value, &$grade_item, $localized=true, $display
 
     // no grade yet?
     if (is_null($value)) {
-        return '-';
+        return '#';
     }
 
     if ($grade_item->gradetype != GRADE_TYPE_VALUE and $grade_item->gradetype != GRADE_TYPE_SCALE) {

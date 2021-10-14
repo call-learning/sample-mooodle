@@ -1,0 +1,27 @@
+[submodule "mod/questionnaire"]
+	path = mod/questionnaire
+	url = https://github.com/PoetOS/moodle-mod_questionnaire.git
+[submodule "report/customsql"]
+	path = report/customsql
+	url = https://github.com/moodleou/moodle-report_customsql.git
+[submodule "local/codechecker"]
+	path = local/codechecker
+	url = https://github.com/moodlehq/moodle-local_codechecker.git
+[submodule "filter/filtercodes"]
+	path = filter/filtercodes
+	url = https://github.com/michael-milette/moodle-filter_filtercodes.git
+[submodule "question/type/gapfill"]
+	path = question/type/gapfill
+	url = https://github.com/marcusgreen/moodle-qtype_gapfill.git
+[submodule "course/format/onetopic"]
+	path = course/format/onetopic
+	url = https://github.com/davidherney/moodle-format_onetopic.git
+[submodule "lib/editor/atto/plugins/styles"]
+	path = lib/editor/atto/plugins/styles
+	url = https://github.com/moodleuulm/moodle-atto_styles.git
+[submodule "block/sponsors"]
+	path = block/sponsors
+	url = https://github.com/call-learning/moodle-block_sponsors.git
+[submodule "theme/adaptable"]
+	path = theme/adaptable
+	url = https://gitlab.com/jezhops/moodle-theme_adaptable.git
