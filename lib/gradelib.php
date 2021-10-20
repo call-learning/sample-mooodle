@@ -773,7 +773,9 @@ function grade_format_gradevalue($value, &$grade_item, $localized=true, $display
 
     // no grade yet?
     if (is_null($value)) {
-        return '-';
+        // return '-';
+        //modification Kevin 23 juin 2019 pour remplacer les - par # si pas de notes (conflit avec barème compétence IMTA)
+        return '#';
     }
 
     if ($grade_item->gradetype != GRADE_TYPE_VALUE and $grade_item->gradetype != GRADE_TYPE_SCALE) {
