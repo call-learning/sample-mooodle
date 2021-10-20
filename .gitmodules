@@ -22,3 +22,6 @@
 [submodule "block/sponsors"]
 	path = block/sponsors
 	url = https://github.com/call-learning/moodle-block_sponsors.git
+[submodule "theme/adaptable"]
+	path = theme/adaptable
+	url = https://gitlab.com/jezhops/moodle-theme_adaptable.git
