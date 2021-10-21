@@ -22,3 +22,6 @@
 [submodule "block/sponsors"]
 	path = block/sponsors
 	url = https://github.com/call-learning/moodle-block_sponsors.git
+[submodule "admin/tool/pluginskel"]
+	path = admin/tool/pluginskel
+	url = https://github.com/mudrd8mz/moodle-tool_pluginskel
